@@ -1,0 +1,130 @@
+.popap__bg {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(33, 59, 126,.3);
+}
+
+.authorization__window {
+    color: #213B7E;
+    border: 1px solid #213B7E;
+    width: 500px;
+    max-width: 98%;
+    height: 418px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFFFFF;
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+}
+
+.visible {
+     display: none;
+}
+
+.window__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.close__modal {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 24px;
+	height: 24px;
+	opacity: 0.2;
+	cursor: pointer;
+  transition: opacity ease 0.5s;
+}
+
+.close__modal:hover {
+		opacity: 1;
+	}
+
+.close__modal::before,
+.close__modal::after {
+	content: '';
+	position: absolute;
+	top: 10px;
+	display: block;
+	width: 24px;
+	height: 3px;
+	background: #000;
+}
+
+.close__modal::before {
+	transform: rotate(45deg);
+}
+
+.close__modal::after {
+	transform: rotate(-45deg);
+}
+
+.bid {
+    margin-top: 26px;
+    margin-bottom: 36px;
+    padding-left: calc(50% - 444px / 2);
+    padding-right: calc(50% - 444px / 2);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.in_text_login {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 56px;
+    font-size: 24px;
+    border: 1px solid #213B7E;
+    color: 
+    #213b7e96;
+    height: 55px;
+    width: 444px;
+    outline: none;
+}
+
+.in_text_password {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 56px;
+    font-size: 24px;
+    border: 1px solid #213B7E;
+    color: 
+    #213b7e96;
+    height: 55px;
+    width: 444px;
+    outline: none;
+}
+
+.button_window_section {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.button__window {
+    cursor: pointer;
+    margin: auto;
+    width: 180px;
+    height: 50px;
+    background-color: #EA5D21;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    transition: all 1.0s ease;
+}
+
+.button__window:hover {
+    background-color: white;
+    color: #213B7E;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}

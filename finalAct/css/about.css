@@ -1,0 +1,21 @@
+.about__course {
+    padding-left: calc(50% - 820px / 2);
+    padding-right: calc(50% - 820px / 2);
+    font-size: 25px;
+}
+
+.about__us {
+    margin-top: 33px;
+    font-size: 30px;
+}
+
+.text_for_video {
+    margin-top: 25px;
+}
+
+.video {
+    max-width: 100%;
+    margin-top: 15px;
+    width: 820px;
+    height: 549px;
+}

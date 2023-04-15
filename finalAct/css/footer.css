@@ -1,0 +1,29 @@
+.footer {
+    margin-top: 30px;
+    max-width: 1300px;
+    padding-left: calc(50% - 1268px / 2);
+    padding-right: calc(50% - 1268px / 2);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #213B7E;
+    color: rgba(255, 255, 255, .5);
+}
+
+.footer__link {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: rgba(255, 255, 255, .5);
+    transition: all 1.0s ease;
+}
+
+.footer__link:hover{
+    justify-items: center;
+    display: flex;
+    color: #213B7E;
+    background-color: #fff;
+    text-decoration: none;
+}

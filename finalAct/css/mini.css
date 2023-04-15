@@ -1,0 +1,25 @@
+@media (max-width:375px) {
+    .body {
+        padding-left: calc(50% - 320px / 2);
+        padding-right: calc(50% - 320px / 2);
+    }
+
+    .authorization__window {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 98%;
+    }
+    
+    .in_text_password {
+        margin-bottom: 19px;
+    }
+
+    .button_window_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

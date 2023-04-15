@@ -1,0 +1,111 @@
+@media (max-width: 768px) {
+.head {
+    justify-content: center;
+    padding: 0;
+}
+
+ .logo {
+    display: none;
+}
+
+.menu__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    display: block;
+}
+    
+.menu__link:hover {
+    justify-items: center;
+    display: flex;
+    color: #213B7E;
+    background-color: white;
+    text-decoration: none;
+    transition: all 1.0s ease;
+}
+
+.authorization__window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 98%;
+        
+}
+    
+.body {
+    max-width: 100%;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.in_text_login {
+    max-width: 90%;
+}
+
+.in_text_password {
+    max-width: 90%;
+}
+    
+.link__active {
+    text-decoration: none;
+    color: #213B7E;
+}
+
+.button {
+    margin-right: 0;
+    width: 100%;
+}
+
+.main__content, .title__list, .about__course, .search, .map, .adress, .contact {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.title {
+    justify-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+.content__info {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 11px;
+    margin-bottom: 6px;    
+}
+
+.about__text {
+    font-size: 14px;
+}
+
+.heading {
+    margin-top: 30px;
+    font-size: 32px;
+    line-height: 41px;
+}
+     
+.students__list {
+    display: flex;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.map {
+    padding-left: 0;
+    padding-right: 0;
+}
+}

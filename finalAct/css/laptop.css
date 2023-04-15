@@ -1,0 +1,62 @@
+@media (max-width: 1024px) {
+    .head {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .menu {
+        margin-left: 0;
+    }
+
+    .menu__link {
+        font-size: 18px;
+        padding: 20px 14px;
+    }
+
+    .authorization__window {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 98%;
+    }
+    
+
+    .main__content {
+        padding-left: calc(50% - 732px / 2);
+        padding-right: calc(50% - 732px / 2);
+    }
+
+    .content__section {
+        width: 70%;
+    }
+
+    .content__info {
+        align-items: center;
+    }
+
+    .students__list {
+        gap: 30px;
+        padding-left: calc(50% - 732px / 2);
+        padding-right: calc(50% - 732px / 2); 
+    }
+    .title__list {
+        padding-left: calc(50% - 732px / 2);
+        padding-right: calc(50% - 732px / 2);
+    }
+
+    .video {
+        width: 720px;
+        height: 449px;
+    }
+
+    .about__course {
+        padding-left: calc(50% - 720px / 2);
+        padding-right: calc(50% - 720px / 2);
+    }
+    
+    .map {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

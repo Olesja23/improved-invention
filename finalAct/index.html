@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="body">
+    <div class="split">
+        <header class="head">
+            <a href="./index.html"><img class="logo" src="./img/logo.svg" alt="Логотип"></a>
+            <ul class="menu">
+                <li class="menu__list">
+                    <a href="./index.html" class="menu__link link__active">Главная</a>
+                </li>
+                <li class="menu__list">
+                    <a href="./html/students.html" class="menu__link">Студенты</a>
+                </li>
+                <li class="menu__list">
+                    <a href="./html/about.html" class="menu__link">О курсе</a>
+                </li>
+                <li class="menu__list">
+                    <a href="./html/contacts.html" class="menu__link">Контакты</a>
+                </li>
+            </ul>
+            <button class="button">Войти</button>
+            </header>
+        <div class="popap__bg visible">
+            <div class="authorization__window">
+                <form class="window__text">
+                    <div class="close__modal"></div>
+                    <span class="bid">Войти на сайт</span> 
+                    <input  class="in_text_login"  type="text" placeholder="Логин">
+                    <input class="in_text_password" type="text" placeholder="Пароль">
+                    <div class="button_window_section">
+                        <button class="button__window">Войти</button>
+                        или
+                        <button class="button__window">Зарегистрироваться</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="./js/popup.js"></script>
+        <main class="main__content">
+            <h1 class="title">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
+            <img class="img" src="./img/contentfoto.jpg" alt="Фото учебной аудитории">
+            <div class="content__info">
+                <div class="content__section">
+                    <article class="content__article">
+                        <h3 class="subtitle">Для кого этот курс</h3>
+                        <p class="about__text">Этот курс рассчитан на новичков, которые только начинают знакомство с веб-разработкой. В начале курса вы узнаете о том, как устроен Интернет и веб-сайты. 
+                        Для обучения необходимо только владеть компьютерной грамотностью (пользоваться браузером, создавать папки и файлы, устанавливать программы).</p>
+                    </article>
+                    <article class="content__article">
+                        <h3 class="subtitle">Чему вы научитесь</h3>
+                        <p class="about__text">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с нуля. Изучите основы языков <span class="bold__font">HTML, CSS</span> и немного <span class="bold__font">JavaScript</span>. Мы вместе сверстаем сайт нашей группы по этому макету. А затем вы <span class="orange__font">сами</span> сверстаете свои личные странички в качестве домашнего задания и мы выложим все это на сервер.</p>
+                    </article>
+                </div>
+                <aside class="heading">
+                    <span class="quotation_marks_left">"</span>
+                    Учимся вместе!
+                    <span class="quotation_marks_right">"</span>
+                </aside>
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        2023 &#169; &nbsp; <a class="footer__link" href="./index.html">учебный центр</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="body">
+    <div class="split">
+        <header class="head">
+            <a href="../index.html"><img class="logo" src="../img/logo.svg" alt="Логотип"></a>
+            <nav>
+                <ul class="menu">
+                    <li class="menu__list">
+                        <a href="../index.html" class="menu__link">Главная</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="../html/students.html" class="menu__link">Студенты</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="../html/about.html" class="menu__link">О курсе</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="../html/contacts.html" class="menu__link link__active">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="button">Войти</button>
+        </header>
+        <div class="popap__bg visible">
+            <div class="authorization__window">
+                <form class="window__text">
+                    <div class="close__modal"></div>
+                    <span class="bid">Войти на сайт</span> 
+                    <input  class="in_text_login"  type="text" placeholder="Логин">
+                    <input class="in_text_password" type="text" placeholder="Пароль">
+                    <div class="button_window_section">
+                        <button class="button__window">Войти</button>
+                        или
+                        <button class="button__window">Зарегистрироваться</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="../js/popup.js"></script>
+        <section class="contacts">
+            <h1 class="search">Как нас найти 🗺️️</h1>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26695.36116348005!2d30.347404777966307!3d59.94006512777916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1676960162944!5m2!1sru!2sru"></iframe>
+            <h3 class="contact">Наши контакты</h3>
+            <p class="adress">Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000</p>
+            <br>
+            <p class="adress">Тел: +7 (812) 555-55-55 </p>
+        </section>
+    </div>
+    <footer class="footer">
+        2023 &#169; &nbsp; <a class="footer__link" href="../index.html">учебный центр</a>
+    </footer>
+</body>
+</html>

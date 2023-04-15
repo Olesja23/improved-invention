@@ -1,0 +1,25 @@
+.about_me_foto {
+    max-width: 200px;
+}
+
+.about_me_content {
+    margin-top: 30px;
+    padding-left: calc(50% - 1250px / 2);
+    padding-right: calc(50% - 1250px / 2);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #213B7E;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.text_about_me {
+    line-height: 45px;
+    max-width: 990px;
+    margin: auto;
+}
+
+.text__decoration {
+    color: #EA5D21;
+}

@@ -1,0 +1,33 @@
+.search {
+    padding-left: calc(50% - 868px / 2);
+    padding-right: calc(50% - 868px / 2);
+    font-size: 35px;
+    margin-top: 33px;
+    margin-bottom: 25px;
+    
+}
+
+.map {
+    padding-left: calc(50% - 1268px / 2);
+    padding-right: calc(50% - 1268px / 2);
+    border: 0;
+    width: 1268px;
+    height: 370px;
+    max-width: 100%;
+}
+
+.contact {
+    padding-left: calc(50% - 868px / 2);
+    padding-right: calc(50% - 868px / 2);
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.adress {
+    padding-left: calc(50% - 868px / 2);
+    padding-right: calc(50% - 868px / 2);
+    font-size: 18px;
+}
+

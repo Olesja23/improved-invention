@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О курсе</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="body">
+    <div class="split">
+        <header class="head">
+            <a href="../index.html"><img class="logo" src="../img/logo.svg" alt="Логотип"></a>
+            <nav>
+                <ul class="menu">
+                    <li class="menu__list">
+                        <a href="../index.html" class="menu__link">Главная</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="../html/students.html" class="menu__link link__active">Студенты</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="../html/about.html" class="menu__link">О курсе</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="../html/contacts.html" class="menu__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="button">Войти</button>
+        </header>
+        <div class="popap__bg visible">
+            <div class="authorization__window">
+                <form class="window__text">
+                    <div class="close__modal"></div>
+                    <span class="bid">Войти на сайт</span> 
+                    <input  class="in_text_login"  type="text" placeholder="Логин">
+                    <input class="in_text_password" type="text" placeholder="Пароль">
+                    <div class="button_window_section">
+                        <button class="button__window">Войти</button>
+                        или
+                        <button class="button__window">Зарегистрироваться</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="../js/popup.js"></script>
+        <section class="about__me">
+            <div class="about_me_content">
+                <img class="about_me_foto" src="../img/OlesjaL.jpg" alt="Олеся Лапук">
+                <p class="text_about_me">
+                    Мне 35. Проживаю в городе Уфа. У меня двое прекрасных деток и заботливый муж!
+                </p>
+            </div> 
+            <div class="about_me_content">
+                <img class="about_me_foto" src="../img/bgau_logo.png" alt="Логотип БашГАУ">
+                <p class="text_about_me">
+                    В данный момент получаю второе высшее образование в Башкирском Государственном Аграрном Университете, по специальности - <span class="text__decoration"> "Ландшафтная архитектура"</span>. Параллельно обучаюсь на онлайн курсе <span class="text__decoration"> "Мой первый сайт"</span> в Университете Иннополис.
+                </p>
+                <div>
+                </div>
+            </div> 
+            <div class="about_me_content">
+                <img class="about_me_foto" src="../img/Innopolis_University.png" alt="Логотип Иннополис">
+                <p class="text_about_me">
+                    С самого детства занимаюсь фотографией. Начинала с фото на документы и съёмки мероприятий. В плане работы, я на фрилансе. Не плохо знаю фотошоп, особенно что касается обработки фотографий. Но очень <span class="text__decoration">хочется покорения новых творческих горизонтов</span>, поэтому и пришла на данный курс! 
+                </p>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        2023 &#169; &nbsp; <a class="footer__link" href="../index.html">учебный центр</a>
+    </footer>
+</body>
+</html>
